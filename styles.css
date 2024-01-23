@@ -45,14 +45,24 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
+.sidebar nav header{
+
+}
+
+.sidebar nav header button{
+    background-color: transparent;
+    border: 0;
+    border-radius: 9999px;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
 .sidebox {
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
-}
-
-.sidebox .library{
-    background-color: #121212;
-    border-radius: 8px;
-    padding: 16px 0 0 16px;
+    margin: 10px 0 0 0;
 }
