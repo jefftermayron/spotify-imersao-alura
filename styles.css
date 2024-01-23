@@ -45,14 +45,70 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
+.sidebar nav header{
+
+}
+
+.sidebar nav header button{
+    background-color: transparent;
+    border: 0;
+    border-radius: 9999px;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar nav header button span{
+    padding: 0 6px 0 0;
+}
+
 .sidebox {
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
+    margin: 10px 0 0 0;
 }
 
-.sidebox .library{
-    background-color: #121212;
+.cards section{
+    background-color: #505050;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.title{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.subtitle{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cards section button{
+    background-color: #fff;
+    border: 0;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: "DM Sans", sans-serif;
+    margin: 10px;
+}
+
+.cards section button span{
+    color: #000;
 }
