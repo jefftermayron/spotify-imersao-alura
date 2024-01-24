@@ -45,70 +45,99 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
-.sidebar nav header{
-
-}
-
-.sidebar nav header button{
-    background-color: transparent;
-    border: 0;
-    border-radius: 9999px;
-    color: #b3b3b3;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: "DM Sans", sans-serif;
-}
-
-.sidebar nav header button span{
-    padding: 0 6px 0 0;
-}
-
-.sidebox {
+.library{
     background-color: #121212;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
-    margin: 10px 0 0 0;
-}
-
-.cards section{
-    background-color: #505050;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.title{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
     color: #b3b3b3;
-    text-decoration: none;
     font-weight: 600;
-    font-size: 20px;
-    font-family: "DM Sans", sans-serif;
-    padding: 10px 10px;
-    margin: 10px 10px;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
-.subtitle{
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.library .library__button{
+    display: flex;
+    margin-right: 10px;
     color: #b3b3b3;
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 15px;
-    font-family: "DM Sans", sans-serif;
-    padding: 10px;
-    margin: 10px;
-}
-
-.cards section button{
-    background-color: #fff;
+    background-color: transparent;
     border: 0;
-    border-radius: 9999px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
+    font-size: 14px;
+    font-weight: 700;
     font-family: "DM Sans", sans-serif;
-    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
 }
 
-.cards section button span{
+.library .library__button .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .library__content .fa-plus{
+    margin: 24px 10px;
+}
+
+.section-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+
+}
+
+.section-playlist__ .section-playlist__content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-playlist__content .text{
+    padding: 14px;
+    color: #fff;
+}
+
+.section-playlist__content .title{
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist__content .section-playlist__button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
     color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 113px;
+    
 }
